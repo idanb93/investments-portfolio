@@ -16,11 +16,9 @@ import java.time.LocalDateTime;
 @Entity // JPA-based data storing
 public class Asset implements Comparable<Asset> {
 
-    // default c'tor
     public Asset(){
     }
 
-    // data members
     private @Id @GeneratedValue Long id;
 
     private LocalDateTime creationDate;
@@ -41,7 +39,7 @@ public class Asset implements Comparable<Asset> {
         this.amount = amount;
         this.typeOfAsset = typeOfAsset;
         this.price = setPrice(ticker);
-        setTotalValue();
+        this.setTotalValue();
     }
 
     public void setTotalValue() {
@@ -50,7 +48,7 @@ public class Asset implements Comparable<Asset> {
     }
 
     public BigDecimal setPrice(String ticker) throws IOException {
-        Stock stock = YahooFinance.get(ticker);
+        Stock stock = YahooFinance.get(this.getTicker());
         return stock.getQuote().getPrice();
     }
 
@@ -59,8 +57,8 @@ public class Asset implements Comparable<Asset> {
         return ((this.getPrice().multiply(amount1)).divide(Asset.totalValue, 2, RoundingMode.HALF_UP)).scaleByPowerOfTen(2);
     }
 
-    // CompareTo - When using sorted it will use this class compareTo interface to compare between the parameter stated
-    // in the method, I decided this parameter will be percentage .
+    // CompareTo - When using sorted method it will use this class Comparable interface to compare between objects by the parameter stated
+    // in the method compareTo(), I decided this parameter will be the percentage from the portfolio.
 
     @Override
     public int compareTo(Asset o) {
