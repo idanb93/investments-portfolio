@@ -64,11 +64,11 @@ public class RESTfulController {
                 linkTo(methodOn(RESTfulController.class).getAllAssets()).withSelfRel());
     }
 
-    @GetMapping("/assets/cryptocurrency")
+    @GetMapping("/assets/cryptocurrencies")
     CollectionModel<EntityModel<Asset>> getCryptoAssets(){
         List<EntityModel<Asset>> assets =
                 dataBase.findAll().stream()
-                        .filter(asset -> asset.getTypeOfAsset().equals("Crypto"))
+                        .filter(asset -> asset.getTypeOfAsset().equals("CryptoCurrency"))
                         .sorted(Comparator.reverseOrder())
                         .map(asset -> myAssetAdapter.toModel(asset))
                         .collect(Collectors.toList());

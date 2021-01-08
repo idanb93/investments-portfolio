@@ -12,7 +12,7 @@ public interface DataBase extends JpaRepository<Asset,Long> {
      * Create - Post
      * Update - Put
      * Delete - Delete
-     * Get - Get Representation of a Resource
+     * Read - Get Representation of a Resource
      */
 
     Asset getAssetByName(String name);
