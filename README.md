@@ -12,5 +12,4 @@ Get a more organize way to view all my assets and different statistics that i ca
 
 ## Demonstration 
 
-![giphy](https://user-images.githubusercontent.com/35878173/104034881-22976680-51da-11eb-9055-85fc1b610809.gif)
-(https://user-images.githubusercontent.com/35878173/104034881-22976680-51da-11eb-9055-85fc1b610809.gif)](https://youtu.be/B_CfvlAqhYk "Postman")
+[![https://user-images.githubusercontent.com/35878173/104034881-22976680-51da-11eb-9055-85fc1b610809.gif](https://user-images.githubusercontent.com/35878173/104034881-22976680-51da-11eb-9055-85fc1b610809.gif)](https://youtu.be/B_CfvlAqhYk "Postman")
