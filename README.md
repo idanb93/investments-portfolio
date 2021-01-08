@@ -12,4 +12,4 @@ Get a more organize way to view all my assets and different statistics that i ca
 
 ## Demonstration 
 
-[![https://gifs.com/gif/Gv1v83](https://gifs.com/gif/Gv1v83)](https://www.youtube.com/watch?v=LkW4Uj31RZ0 "Postman")
+[![https://gph.is/g/4zAMGoL](https://gph.is/g/4zAMGoL)](https://youtu.be/B_CfvlAqhYk "Postman")
