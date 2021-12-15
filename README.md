@@ -1,6 +1,6 @@
 # Synopsis
 
-In this project I built a WebAPI that shows my investment portfolio, I used RESTful principles and built the project using SpringBoot framework.
+- In this project I built a WebAPI that shows my investment portfolio, I used RESTful principles and built the project using SpringBoot framework.
 
 ## Goals
 
