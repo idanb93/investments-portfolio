@@ -20,7 +20,7 @@ During the project I experimented with the following:
 
 - experineced working with Postman - I learned about the differnt HTTP requests, how to add a body to a request, and where to add the necessary values in Postman.
 
-- experinced working with Gradle (Dependencies manager) and added Yahoo Finance API to the project and worked with it (RealTimePrice of an asset).
+- experinced working with Gradle (Dependencies manager), I added Yahoo Finance API to the pom.xml file, and learned how to interact with it ( RealTimePrice of an asset ) and learned what types of data should the API return ( BigDecimal ).
 
 ## Demonstration 
 
