@@ -14,11 +14,11 @@ During the project I experimented with the following:
 
 - experinced working with SpringBoot library and it's features: I created a RESTful Controller and created the different Mapping annotations which made it easier to create new API enteries.
 
-- I learned about Jackson - an ObjectMapper that knows how to map json input that was passed to it in an HTTP POST request body to a Java object, and then automatically insert it to the database.
-
 - experinced with Lombok which is a Java annotation library which helps to reduce boilerplate code.
 
 - experineced working with Postman - I learned about the differnt HTTP requests, how to add a body to a request, and where to add the necessary values in Postman.
+
+- I learned about Jackson - an ObjectMapper that knows how to map json input that was passed to it in an HTTP POST request body to a Java object, and then automatically insert it to the database.
 
 - experinced working with Gradle (Dependencies manager), I added Yahoo Finance API to the pom.xml file, and learned how to interact with it ( RealTimePrice of an asset ) and learned what types of data should the API return ( BigDecimal ).
 
