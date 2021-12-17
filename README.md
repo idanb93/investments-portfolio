@@ -12,7 +12,9 @@
 
 During the project I experimented with the following:
 
-- experinced working with SpringBoot library and it's features: I created a RESTful Controller and created the different Mapping annotations which made it easier to create new API enteries. I learned about Jackson - an ObjectMapper that knows how to map json input that was passed to it in an HTTP POST request body to a Java object, and then automatically insert it to the database.
+- experinced working with SpringBoot library and it's features: I created a RESTful Controller and created the different Mapping annotations which made it easier to create new API enteries.
+
+- I learned about Jackson - an ObjectMapper that knows how to map json input that was passed to it in an HTTP POST request body to a Java object, and then automatically insert it to the database.
 
 - experinced with Lombok which is a Java annotation library which helps to reduce boilerplate code.
 
