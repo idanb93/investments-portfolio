@@ -1,12 +1,12 @@
 # Synopsis
 
-- In this project I built a WebAPI that shows my investment portfolio, I used RESTful principles and built the project using SpringBoot framework.
+In this project I built a WebAPI that shows my investment portfolio, I used RESTful principles and built the project using SpringBoot framework.
 
 ## Goals
 
-- In general organize my investment data so i can share statistics on my portfolio for example what percentage each asset makes up from my portfolio, and sort by asset type.
+In general organize my investment data so i can share statistics on my portfolio for example what percentage each asset makes up from my portfolio, and sort by asset type.
 
-- Gain experience with building my own API - create the main entity, working with a database, create enteries for the API and combining working with other APIs ( Yahoo Finance ).
+Gain experience with building my own API - create the main entity, working with a database, create enteries for the API and combining working with other APIs ( Yahoo Finance ).
 
 ## Motivation
 
